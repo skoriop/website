@@ -32,6 +32,35 @@
     ]
   },
   {
+    "username": "skoriop",
+    "name": "Karthik Prakash",
+    "title": "Secretary",
+    "text": "insert something unfunny",
+    "avatar": "https://avatars.githubusercontent.com/u/116057817?s=400&u=23a82d6a0f5cd490fd612143d0f4e0dda8ede043&v=4",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/skoriop"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/karthik-prakash-a6a401261/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/skoriop"
+      }
+    ],
+    "badges": [
+      "Web Dev",
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      "2022",
+      "Senate"
+    ]
+  },
+  {
     "username": "humblebuzz",
     "name": "Varun Reddy Padala",
     "title": "Secretary",
@@ -61,7 +90,7 @@
     ],
     "highlightedBadges": [
       "2022",
-      "Member"
+      "Senate"
     ]
   },
   {
@@ -271,7 +300,7 @@
     ],
     "highlightedBadges": [
       "2022",
-      "Member"
+      "Senate"
     ]
   },
   {
