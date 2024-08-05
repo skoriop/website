@@ -8,7 +8,7 @@ import { Image } from "astro:assets";
 
 const blogEntries = await getCollection("posts");
 const blogCategories = [
-  ...new Set(blogEntries.map((item) => item.data.category)),
+  ...new Set(blogEntries.map((item: any) => item.data.category)),
 ];
 ---
 
@@ -46,8 +46,8 @@ const blogCategories = [
                 </span>
                 <ul class="flex flex-col space-y-4 pt-4">
                   {blogEntries
-                    .filter((x) => x.data.category === category)
-                    .map((item) => (
+                    .filter((x: any) => x.data.category === category)
+                    .map((item: any) => (
                       <li>
                         <a href={`/blog/${item.slug}`}>
                           <div class="relative w-full rounded-xl border-y-2 border-b-border-gradient-2/10 border-t-border-gradient-1/10 bg-gradient-to-br from-glass-gradient-1/60 from-0% via-glass-gradient-2/60 via-90% to-glass-gradient-3/60 to-100% py-6 text-foreground sm:py-8">
