@@ -1019,32 +1019,6 @@
     "website": ""
   },
   {
-    "username": "soemone",
-    "name": "Aditya Shiroor Acharya",
-    "title": "Developer",
-    "badges": [
-      "Automation & Scripting",
-      "Web Dev",
-      "Game Dev"
-    ],
-    "highlightedBadges": [
-      "2024",
-      "Enthusiast"
-    ],
-    "text": "I write code, probably. I might enjoy rust too. ",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/soemone"
-      },
-      {
-        "name": "email",
-        "link": "mailto:adityashiroor@gmail.com"
-      }
-    ],
-    "website": ""
-  },
-  {
     "username": "voidEmerald",
     "name": "Anirudh M",
     "title": "Developer",
@@ -1076,5 +1050,31 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "soemone",
+    "name": "Aditya Shiroor Acharya",
+    "title": "Developer",
+    "badges": [
+      "Automation & Scripting",
+      "Web Dev",
+      "Game Dev"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Enthusiast"
+    ],
+    "text": "I write code, probably. I might enjoy rust too. ",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/soemone"
+      },
+      {
+        "name": "email",
+        "link": "mailto:adityashiroor@gmail.com"
+      }
+    ],
+    "website": "soemone.tech"
   }
 ]
