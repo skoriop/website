@@ -937,30 +937,6 @@
     "website": ""
   },
   {
-    "username": "zeeshanok",
-    "name": "Zeeshan Valappil",
-    "title": "Developer",
-    "badges": [
-      "App Dev"
-    ],
-    "highlightedBadges": [
-      "2023",
-      "Senate"
-    ],
-    "text": "",
-    "socials": [
-      {
-        "name": "github",
-        "link": "https://github.com/zeeshanok"
-      },
-      {
-        "name": "email",
-        "link": "mailto:zeeshanv@outlook.com"
-      }
-    ],
-    "website": ""
-  },
-  {
     "username": "poisonpwn",
     "name": "Adithyadev R",
     "title": "Developer",
@@ -1076,5 +1052,29 @@
       }
     ],
     "website": "soemone.tech"
+  },
+  {
+    "username": "zeeshanok",
+    "name": "Zeeshan Valappil",
+    "title": "Secretary",
+    "badges": [
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Senate"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/zeeshanok"
+      },
+      {
+        "name": "email",
+        "link": "mailto:zeeshanv@outlook.com"
+      }
+    ],
+    "website": ""
   }
 ]
