@@ -1076,5 +1076,37 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "darkstreak",
+    "name": "Vansh Bhardwaj",
+    "title": "Developer",
+    "badges": [
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/Vansh-Bh"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/vanshbh/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/VanshBh"
+      },
+      {
+        "name": "email",
+        "link": "mailto:vanshbhardwaj28134@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
