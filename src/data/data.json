@@ -1108,5 +1108,33 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "navgarg",
+    "name": "Navya Garg",
+    "title": "Developer",
+    "badges": [
+      "App Dev"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Enthusiast"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/navgarg"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/navya-garg-b8674b1b1/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:navgarg06@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
