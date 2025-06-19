@@ -1160,5 +1160,33 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "krymzin",
+    "name": "Shiv Patil",
+    "title": "Developer",
+    "badges": [
+      "Web Dev"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ],
+    "text": "todo: forget about this todo",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/Shiv-Patil"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/krymzin/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:krymzin0311@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
