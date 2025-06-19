@@ -1136,5 +1136,29 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "kira",
+    "name": "Madhav Anand",
+    "title": "Developer",
+    "badges": [
+      "Web Dev"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Enthusiast"
+    ],
+    "text": "I'm dead",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/kiraoke"
+      },
+      {
+        "name": "email",
+        "link": "mailto:kiraokeku@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
