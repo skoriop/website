@@ -1188,5 +1188,34 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "hans772_",
+    "name": "Tobit K Joshy",
+    "title": "Developer",
+    "badges": [
+      "App Dev",
+      "Game Dev"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Member"
+    ],
+    "text": "I'm such a baller.",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/hans772"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/tobit-k-524395350/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:tobitkjoshy@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
