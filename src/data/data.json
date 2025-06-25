@@ -1217,5 +1217,33 @@
       }
     ],
     "website": "soemone.tech"
+  },
+  {
+    "username": "saanviv812",
+    "name": "Saanvi Varma",
+    "title": "Designer",
+    "badges": [
+      "Design"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Enthusiast"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/saanviv812"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/saanvi-varma-raghavaraju-301106288"
+      },
+      {
+        "name": "email",
+        "link": "mailto:saanvivarma.raghavaraju@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
