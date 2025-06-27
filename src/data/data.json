@@ -1245,5 +1245,30 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "usrccr_",
+    "name": "Shrivatsan T",
+    "title": "Developer",
+    "badges": [
+      "Machine Learning",
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Member"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/TheProgrammingArchive"
+      },
+      {
+        "name": "email",
+        "link": "mailto:shrivatsant@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
