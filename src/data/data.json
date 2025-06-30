@@ -1270,5 +1270,37 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "Radian6405",
+    "name": "B Sai Sri Vardhan",
+    "title": "Web Dev",
+    "badges": [
+      "Web Dev"
+    ],
+    "highlightedBadges": [
+      "2023",
+      "Member"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/Radian6405"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/b-sai-sri-vardhan/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/Radian6405"
+      },
+      {
+        "name": "email",
+        "link": "mailto:vardhan.6405@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
