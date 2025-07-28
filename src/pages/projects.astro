@@ -43,7 +43,8 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+              <span
+                class="whitespace-nowrap text-3xl font-bold md:text-4xl xl:text-6xl"
                 >ChronoFactorem</span
               >
               <a
@@ -59,7 +60,7 @@ const constructCarouselData = (usernames: string[]) =>
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+            class="-ml-2 flex w-full justify-center pb-8 pt-8 sm:block sm:w-96 sm:pb-16 sm:pt-0 sm:pt-4 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -86,11 +87,10 @@ const constructCarouselData = (usernames: string[]) =>
             />
           </div>
         </div>
-        <div class="flex justify-center ml-4 sm:ml-20 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
-          <img
-            src="/chrono.png"
-            class="sm:mt-14 h-fit aspect-auto"
-          />
+        <div
+          class="ml-4 flex justify-center pr-4 sm:ml-20 sm:pr-6 sm:pt-24 md:pr-10"
+        >
+          <img src="/chrono.png" class="aspect-auto h-fit sm:mt-14" />
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
@@ -102,7 +102,8 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+              <span
+                class="whitespace-nowrap text-3xl font-bold md:text-4xl xl:text-6xl"
                 >Rideshare</span
               >
               <a
@@ -118,7 +119,7 @@ const constructCarouselData = (usernames: string[]) =>
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+            class="-ml-2 flex w-full justify-center pb-8 pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -137,14 +138,16 @@ const constructCarouselData = (usernames: string[]) =>
             />
           </div>
         </div>
-        <div class="flex justify-center sm:justify-end gap-5 sm:gap-10 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+        <div
+          class="flex justify-center gap-5 pr-4 sm:justify-end sm:gap-10 sm:pr-6 sm:pt-24 md:pr-10"
+        >
           <img
             src="/rideshare1.png"
-            class="w-1/3 sm:max-w-1/3 max-h-fit aspect-auto"
+            class="sm:max-w-1/3 aspect-auto max-h-fit w-1/3"
           />
           <img
             src="/rideshare2.png"
-            class="w-1/3 sm:max-w-1/3 max-h-fit aspect-auto"
+            class="sm:max-w-1/3 aspect-auto max-h-fit w-1/3"
           />
         </div>
       </div>
@@ -157,7 +160,62 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+              <span
+                class="whitespace-nowrap text-3xl font-bold md:text-4xl xl:text-6xl"
+                >Surge</span
+              >
+              <a
+                class="material-symbols-rounded pl-2 pt-2 text-3xl font-bold text-primary md:text-4xl xl:text-6xl"
+                href="https://github.com/crux-bphc/surge"
+                target="_blank">link</a
+              >
+            </div>
+            <span
+              class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
+              >Our official Competitve Coding website for BPHC students to track
+              and grow their competitive programming performance.</span
+            >
+          </div>
+          <div
+            class="-ml-2 flex w-full justify-center pb-8 pt-8 sm:block sm:w-96 sm:pb-16 sm:pt-0 sm:pt-4 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+          >
+            <Carousel
+              client:visible
+              images={constructCarouselData([
+                "Rittin1",
+                "CWSwastik",
+                "Aten2005",
+                "Shiv-Patil",
+                "Manjot1151",
+                "17Rahul05",
+                "yAshKejrIwaL2005",
+              ])}
+              size={8}
+              smallSize={10}
+              mediumSize={12}
+              style="size-8 sm:size-10 md:size-12"
+              maxElements={4}
+            />
+          </div>
+        </div>
+        <div
+          class="ml-4 flex justify-center pr-4 sm:ml-20 sm:pr-6 sm:pt-24 md:pr-10"
+        >
+          <img src="/surge.png" class="aspect-auto h-fit sm:mt-14" />
+        </div>
+      </div>
+
+      <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
+      <div
+        class="flex h-fit w-full flex-col justify-between sm:h-[calc(36dvh)] sm:flex-row md:h-[calc(54dvh)] lg:h-[calc(76dvh)] xl:h-[calc(100dvh-4rem)] landscape:thin:h-[50dvw]"
+      >
+        <div
+          class="flex size-full flex-col justify-between px-4 pt-8 text-foreground sm:w-1/2 sm:pl-16 sm:pr-8 sm:pt-16 lg:w-2/5 lg:pl-28 lg:pt-36"
+        >
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <span
+                class="whitespace-nowrap text-3xl font-bold md:text-4xl xl:text-6xl"
                 >BitsGPT</span
               >
               <a
@@ -173,7 +231,7 @@ const constructCarouselData = (usernames: string[]) =>
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+            class="-ml-2 flex w-full justify-center pb-8 pt-8 sm:block sm:w-96 sm:pb-16 sm:pt-0 sm:pt-4 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -190,11 +248,10 @@ const constructCarouselData = (usernames: string[]) =>
             />
           </div>
         </div>
-        <div class="flex justify-center ml-4 sm:ml-20 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
-          <img
-            src="/bitsgpt.png"
-            class="sm:mt-14 h-fit aspect-auto"
-          />
+        <div
+          class="ml-4 flex justify-center pr-4 sm:ml-20 sm:pr-6 sm:pt-24 md:pr-10"
+        >
+          <img src="/bitsgpt.png" class="aspect-auto h-fit sm:mt-14" />
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
@@ -206,7 +263,8 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+              <span
+                class="whitespace-nowrap text-3xl font-bold md:text-4xl xl:text-6xl"
                 >Lex</span
               >
               <a
@@ -218,11 +276,12 @@ const constructCarouselData = (usernames: string[]) =>
             <span
               class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
             >
-            Currently has Multipartus, giving you a nicer Impartus experience even for courses you are not registered to</span
+              Currently has Multipartus, giving you a nicer Impartus experience
+              even for courses you are not registered to</span
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+            class="-ml-2 flex w-full justify-center pb-8 pt-8 sm:block sm:w-96 sm:pb-16 sm:pt-0 sm:pt-4 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -239,11 +298,10 @@ const constructCarouselData = (usernames: string[]) =>
             />
           </div>
         </div>
-        <div class="flex justify-center ml-4 sm:ml-20 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
-          <img
-            src="/lex.png"
-            class="sm:mt-14 h-fit aspect-auto"
-          />
+        <div
+          class="ml-4 flex justify-center pr-4 sm:ml-20 sm:pr-6 sm:pt-24 md:pr-10"
+        >
+          <img src="/lex.png" class="aspect-auto h-fit sm:mt-14" />
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
@@ -255,7 +313,8 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+              <span
+                class="whitespace-nowrap text-3xl font-bold md:text-4xl xl:text-6xl"
                 >Snap Sorter</span
               >
               <a
@@ -267,11 +326,12 @@ const constructCarouselData = (usernames: string[]) =>
             <span
               class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
             >
-            <i>(beta) </i>Finds all photos from campus events that you're in using face ID and clustering</span
+              <i>(beta) </i>Finds all photos from campus events that you're in
+              using face ID and clustering</span
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+            class="-ml-2 flex w-full justify-center pb-8 pt-8 sm:block sm:w-96 sm:pb-16 sm:pt-0 sm:pt-4 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -280,7 +340,7 @@ const constructCarouselData = (usernames: string[]) =>
                 "CwSwastik",
                 "Shiv-Patil",
                 "HarshitBansal9",
-                "Samirkhairati"
+                "Samirkhairati",
               ])}
               size={8}
               smallSize={10}
@@ -290,11 +350,10 @@ const constructCarouselData = (usernames: string[]) =>
             />
           </div>
         </div>
-        <div class="flex justify-center ml-4 sm:ml-20 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
-          <img
-            src="/snapsorter.png"
-            class="sm:mt-14 h-fit aspect-auto"
-          />
+        <div
+          class="ml-4 flex justify-center pr-4 sm:ml-20 sm:pr-6 sm:pt-24 md:pr-10"
+        >
+          <img src="/snapsorter.png" class="aspect-auto h-fit sm:mt-14" />
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
@@ -306,7 +365,8 @@ const constructCarouselData = (usernames: string[]) =>
         >
           <div class="flex flex-col">
             <div class="flex items-center">
-              <span class="text-3xl font-bold md:text-4xl xl:text-6xl whitespace-nowrap"
+              <span
+                class="whitespace-nowrap text-3xl font-bold md:text-4xl xl:text-6xl"
                 >Arena App</span
               >
               <a
@@ -318,11 +378,13 @@ const constructCarouselData = (usernames: string[]) =>
             <span
               class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
             >
-            A PWA (Progressive Web App) that lets you keep track of event schedules and results, while making predictions on upcoming events to win or lose points.</span
+              A PWA (Progressive Web App) that lets you keep track of event
+              schedules and results, while making predictions on upcoming events
+              to win or lose points.</span
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+            class="-ml-2 flex w-full justify-center pb-8 pt-8 sm:block sm:w-96 sm:pb-16 sm:pt-0 sm:pt-4 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -340,14 +402,16 @@ const constructCarouselData = (usernames: string[]) =>
             />
           </div>
         </div>
-        <div class="flex justify-center sm:justify-end gap-5 sm:gap-10 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
+        <div
+          class="flex justify-center gap-5 pr-4 sm:justify-end sm:gap-10 sm:pr-6 sm:pt-24 md:pr-10"
+        >
           <img
             src="/arenaapp1.jpg"
-            class="w-1/3 sm:w-1/4 sm:max-w-1/3 h-fit aspect-auto"
+            class="sm:max-w-1/3 aspect-auto h-fit w-1/3 sm:w-1/4"
           />
           <img
             src="/arenaapp2.jpg"
-            class="w-1/3 sm:w-1/4 sm:max-w-1/3 h-fit aspect-auto"
+            class="sm:max-w-1/3 aspect-auto h-fit w-1/3 sm:w-1/4"
           />
         </div>
       </div>
@@ -372,11 +436,13 @@ const constructCarouselData = (usernames: string[]) =>
             <span
               class="pt-4 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
             >
-            <i>(beta) </i>A desktop app that lets you download Impartus lectures for offline viewing, even for courses you are not registered to</span
+              <i>(beta) </i>A desktop app that lets you download Impartus
+              lectures for offline viewing, even for courses you are not
+              registered to</span
             >
           </div>
           <div
-            class="flex w-full justify-center pb-8 pt-8 sm:pt-4 sm:block sm:w-96 sm:pb-16 sm:pt-0 -ml-2 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
+            class="-ml-2 flex w-full justify-center pb-8 pt-8 sm:block sm:w-96 sm:pb-16 sm:pt-0 sm:pt-4 md:-ml-8 lg:-ml-12 lg:pb-24 xl:ml-0"
           >
             <Carousel
               client:visible
@@ -393,11 +459,10 @@ const constructCarouselData = (usernames: string[]) =>
             />
           </div>
         </div>
-        <div class="flex justify-center ml-4 sm:ml-20 pr-4 sm:pr-6 sm:pt-24 md:pr-10">
-          <img
-            src="/lex.png"
-            class="sm:mt-14 h-fit aspect-auto"
-          />
+        <div
+          class="ml-4 flex justify-center pr-4 sm:ml-20 sm:pr-6 sm:pt-24 md:pr-10"
+        >
+          <img src="/lex.png" class="aspect-auto h-fit sm:mt-14" />
         </div>
       </div>
       <Divider style="sm:w-10/12 w-11/12 lg:w-11/12 mt-8 border-dashed" />
