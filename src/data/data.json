@@ -1302,5 +1302,29 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "rev-975",
+    "name": "Reva Balaji",
+    "title": "Developer",
+    "badges": [
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": [
+      "2025",
+      "Member"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/rev-975/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:reva0101b@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
