@@ -1326,5 +1326,33 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "vado",
+    "name": "Dhruv Vadadoriya",
+    "title": "Developer",
+    "badges": [
+      "Game Dev"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Member"
+    ],
+    "text": "always on a quest",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/dhruv-vado"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/dhruv-vadadoriya-6a881b329"
+      },
+      {
+        "name": "email",
+        "link": "mailto:dhruvvadadoriya2@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
