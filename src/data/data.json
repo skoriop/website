@@ -1386,5 +1386,34 @@
       }
     ],
     "website": "Personal Website"
+  },
+  {
+    "username": "jatin-reddy",
+    "name": "Jatin Reddy",
+    "title": "Developer",
+    "badges": [
+      "Machine Learning",
+      "WebDev"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Enthusiast"
+    ],
+    "text": "professional procrastinator",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/jatin-reddy"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/jatinreddy/"
+      },
+      {
+        "name": "email",
+        "link": "mailto:srijatin@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
