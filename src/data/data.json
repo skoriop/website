@@ -1354,5 +1354,37 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "Shreyas Kamalapuram",
+    "name": "Name",
+    "title": "Title",
+    "badges": [
+      "Badges"
+    ],
+    "highlightedBadges": [
+      "Batch",
+      "Member / Enthusiast / Senate"
+    ],
+    "text": "Text",
+    "socials": [
+      {
+        "name": "github",
+        "link": "GitHub Link"
+      },
+      {
+        "name": "linkedin",
+        "link": "LinkedIn Link"
+      },
+      {
+        "name": "codeforces",
+        "link": "Codeforces Link"
+      },
+      {
+        "name": "email",
+        "link": "mailto:Email"
+      }
+    ],
+    "website": "Personal Website"
   }
 ]
