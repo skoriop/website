@@ -1415,5 +1415,37 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "Proteus",
+    "name": "Lohith Dhanalakshmi Saravanan ",
+    "title": "Designer",
+    "badges": [
+      "Design"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Enthusiast"
+    ],
+    "text": "any new jokes ?",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/Proteus26"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/lohith-d-s/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/Proteus26"
+      },
+      {
+        "name": "email",
+        "link": "mailto:lohithds52@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
