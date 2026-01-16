@@ -1447,5 +1447,25 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "Mradul_Sharda",
+    "name": "Mradul Sharda",
+    "title": "Competitive Programmer",
+    "badges": [
+      "Competitive Programming"
+    ],
+    "highlightedBadges": [
+      "2024",
+      "Member"
+    ],
+    "text": "",
+    "socials": [
+      {
+        "name": "email",
+        "link": "mailto:mradulsharda@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
