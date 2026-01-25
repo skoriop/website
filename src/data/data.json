@@ -1467,5 +1467,38 @@
       }
     ],
     "website": ""
+  },
+  {
+    "username": "shr3yas-k",
+    "name": "Shreyas Kamalapuram",
+    "title": "Developer",
+    "badges": [
+      "Web Dev",
+      "Automation & Scripting"
+    ],
+    "highlightedBadges": [
+      "2025",
+      "Enthusiast"
+    ],
+    "text": "update README.md",
+    "socials": [
+      {
+        "name": "github",
+        "link": "https://github.com/shr3yas-k"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/shreyas-kamalapuram-108b56378/"
+      },
+      {
+        "name": "codeforces",
+        "link": "https://codeforces.com/profile/ashreys"
+      },
+      {
+        "name": "email",
+        "link": "mailto:shreyas.2007.oct@gmail.com"
+      }
+    ],
+    "website": ""
   }
 ]
